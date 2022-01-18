@@ -8,11 +8,18 @@
 </head>
 <body>
     <?php
-    // we use array_merge to concatenate two arrays
-    $odd_numbers =[1,3,5];
-    $even_numbers = [2,4,6];
-    $all_numbers = array_merge($odd_numbers, $even_numbers);
-    print_r($all_numbers);
+    // use sort to sort arrays in ascending order
+    $numbers = [3,5,8,7,3,4,5];
+    sort($numbers);
+    print_r($numbers);
+
+    // use rsort to sort arrays in descending order
+    $numbers = [3,5,8,7,3,4,5];
+    rsort($numbers);
+    print_r($numbers);
+
+
     ?>
+    
 </body>
 </html>
