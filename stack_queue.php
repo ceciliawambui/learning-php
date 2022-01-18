@@ -9,7 +9,7 @@
 <body>
     <!-- Arrays can be used as stacks and queues -->
     <?php
-    // Use array_push to ush a member at the end of the array
+    // Use array_push to push a member at the end of the array
     $numbers=[1,2,3];
     array_push($numbers, 4);
     print_r($numbers);
