@@ -8,13 +8,14 @@
 </head>
 <body>
     <?php
-    // loops first before printing, so if the first number does not qualify, it is not printed
-    $index=1;
-    while($index<=20){
-        echo "$index <br>";
-        // infinite loops, in the case you forget to increment
-        $index++;
-    }
+    // prints the first number before it checks the condition
+    // only difference btwn while and do-while
+    $x = 8;
+    do {
+        echo "$x <br>";
+        $x++;
+    }while(  $x <=5);
+    
     ?>
     
 </body>
