@@ -17,12 +17,12 @@
     }
     // craeting an object
     // an object is an instance of a class
-    $book1 = new Book;
+    $book1 = new Book();
     $book1 ->title ="Harry Potter";
     $book1->author ="JK Rowling";
     $book1->pages = 400;
 
-    $book2 = new Book;
+    $book2 = new Book();
     $book2 ->title ="Lord of Rings";
     $book2->author ="Tolkien";
     $book2->pages = 800;
